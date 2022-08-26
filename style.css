@@ -48,13 +48,13 @@
 
 .medsos .ig img {
     margin-top: 15px;
-    width: 55%;
+    width: 50%;
 
 }
 
 .medsos .shopee img {
     margin-top: 15px;
-    width: 25%;
+    width: 20%;
 }
 
 .medsos .tokopedia img {
@@ -112,7 +112,5 @@ h1 {
     width: 100%;
     object-fit: cover;
 }
-.galery a img:hover{
-    transform:scale(1,4);
-}
+
 

@@ -8,15 +8,28 @@
   <link rel="stylesheet" href="evania.css">
 </head>
 <body>
+    <div class="container">
     <div class="wrapper" >
-      <div class="text-diam">Happy Birthday Evania 
-      <ul class="text-jalan">
-          <li><span>Wish u all the best</span></li>
-          <li><span>Thanks for being my Best friend</span></li>
-          <li><span>I still Love you</span></li>
-          <li><span>God Bless You</span></li>
-      </ul>
-    </div> 
+      <p class="text-center evania"></p>
+      </div>
+    
+
+      <div class="line">
+        <p class="text-center wishes"></p>
+      </div>
     </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/TextPlugin.min.js"></script>
+  <script>
+     gsap.registerPlugin(TextPlugin);
+      gsap.to('.evania', { duration: 2, delay: 1, text: 'Happy Birthday Evania '})
+      gsap.to('.wishes', { duration: 2, delay: 3, text: 'Wish You All the Best'})
+      gsap.to('.wishes', { duration: 2, delay: 6, text: 'God Bless You Always'})
+      gsap.to('.wishes', { duration: 2, delay: 9, text: 'Love You Forever'})
+      gsap.to('.wishes', { duration: 2, delay: 12, text: 'Still be my Minion!'})
+      gsap.to('.wishes', { duration: 4, delay: 15, text: 'Thanks for being my Best friend :)'})
+  </script>
+    
 </body>
 </html>
