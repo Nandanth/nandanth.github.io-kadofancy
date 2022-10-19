@@ -7,6 +7,10 @@
     padding-top: 5rem;
 }
 
+.navbar{
+    opacity: 0.8;
+}
+
 .jumbotron {
     padding-top: 5em;
     background-image: url('img/pink.jpg');
@@ -16,17 +20,20 @@
     
 }
 
-.jumbotron:after {
+
+/*cover transparan
+ jumbotron:after {
     content: '';
     display: block;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color:rgb(225,221,238,0.3);
    
-}
+} */
+
 
 .jumbotron h1, h4  {
     
@@ -73,8 +80,8 @@
 }
 
 #produk {
-    padding-top: 1rem;
-    padding-bottom: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
     background-color: #dbddf1;
     
 }
